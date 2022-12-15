@@ -8,13 +8,17 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 19px;
+  size: 7px;
+
 }
 
 /* styling our overall page */
 body {
   background: rgb(239, 152, 152);
   font-family: Arial, Helvetica, sans-serif;
+
+
 }
 
 /* styling our header */
@@ -22,8 +26,15 @@ header {
   background: rgb(239, 152, 152);
   color: rgb(239, 152, 152);
   padding: 10px 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+
+
 
 }
+
+
 
 /* logo */
 #logo {
@@ -67,7 +78,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgb(227, 201, 85);
+  color: rgb(63, 146, 28);
   text-decoration: none;
   display: block;
   padding: 10px 15px;
@@ -77,7 +88,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background: rgb(248, 170, 27);
+  background: rgb(96, 203, 242);
 }
 
 /* styling our footer */
@@ -163,7 +174,7 @@ footer img {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 300;
-  color: rgb(227, 116, 116);
+  color: rgb(233, 116, 69);
 
 
 }
@@ -219,7 +230,7 @@ footer img {
 
 .testimonial-author h5 {
   font-size: 18px;
-  margin: 0;
+  margin: 0 auto;
   padding-top: 15px;
 
 }
@@ -227,4 +238,11 @@ footer img {
 .testimonial-author span {
   font-size: 14px;
 
+}
+
+.hero-image2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-self: baseline;
 }
