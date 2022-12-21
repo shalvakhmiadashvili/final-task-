@@ -56,6 +56,7 @@ header {
 #logo span {
   display: inline-block;
   background-color: rgb(244, 160, 64);
+  
 }
 
 /* main navigation */
@@ -246,3 +247,11 @@ footer img {
   align-items: flex-end;
   align-self: baseline;
 }
+.hero-1-content{
+  margin-top: 7px;
+  margin-inline:15px
+  ;  
+}
+  
+
+
